@@ -27,12 +27,28 @@ nav a {
 }
 
 main {
-  width: 95%;
+  width: 1250px;
   margin: 4px auto;
+  /*max-width: 1800px;*/
 }
 
 .gallery-head {
   background-color: green;
   padding-left: 10px;
   line-height: 50px;
+}
+
+.layout {
+
+}
+
+.picpanel {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.options {
+  background-color: yellow;
+  text-align: center;
+  /*padding: 1px 0;*/
 }
