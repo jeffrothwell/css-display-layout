@@ -50,5 +50,11 @@ main {
 .options {
   background-color: yellow;
   text-align: center;
+  /*line-height: 30px;*/
   /*padding: 1px 0;*/
+}
+
+.options p {
+  margin: 0;
+  padding: 4px 0;
 }
