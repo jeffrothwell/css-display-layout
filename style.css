@@ -4,6 +4,7 @@
 }
 
 header {
+  width: 950px;
   margin: 0 auto;
   font-weight: bold;
   text-align: center;
@@ -15,27 +16,28 @@ h1 {
   padding: 30px 0;
 }
 
-/*nav {
-  text-align: center;
-}*/
-
 nav a {
   text-decoration: none;
-  background-color: #EBEBEB;
+  background-color: #BBBBBB;
   color: white;
-  padding: 20px 10px;
+  padding: 16px 10px;
 }
 
 main {
-  width: 1250px;
+  border-top: 8px solid white;
+  width: 910px;
   margin: 4px auto;
   /*max-width: 1800px;*/
 }
 
 .gallery-head {
-  background-color: green;
+  background-color: #42f498;
   padding-left: 10px;
   line-height: 50px;
+}
+
+h2 {
+  font-weight: normal;
 }
 
 .layout {
@@ -43,18 +45,34 @@ main {
 }
 
 .picpanel {
+  width: 33%;
   display: inline-block;
   margin-bottom: 10px;
+}
+
+.pic, .options {
+  width: 100%;
 }
 
 .options {
   background-color: yellow;
   text-align: center;
-  /*line-height: 30px;*/
-  /*padding: 1px 0;*/
 }
 
 .options p {
   margin: 0;
   padding: 4px 0;
+}
+
+footer {
+  width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  padding: 10px 0;
+  font-size: 14px;
 }
